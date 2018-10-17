@@ -1,3 +1,8 @@
 export default function locationReducer (state="seattle", action) {
-  return 0;
+  switch (action.type) {
+    case "CHANGE_LOCATION":
+      return action.payload;
+    default:
+      return state;
+  }
 }

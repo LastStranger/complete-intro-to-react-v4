@@ -1,3 +1,8 @@
-export default function locationReducer (state="seattle", action) {
-  return 0;
+export default function BreedsReducer (state=[], action) {
+  switch (action.type) {
+    case "CHANGE_BREEDS":
+      return action.payload;
+    default:
+      return state;
+  }
 }

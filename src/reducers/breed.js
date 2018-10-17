@@ -1,3 +1,10 @@
-export default function locationReducer (state="seattle", action) {
-  return 0;
+export default function locationReducer (state="", action) {
+  switch (action.type) {
+    case "CHANGE_ANIMAL":
+      return "";
+    case "CHANGE_BREED":
+      return action.payload;
+    default:
+      return state;
+  }
 }

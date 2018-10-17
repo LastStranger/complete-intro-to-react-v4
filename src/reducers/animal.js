@@ -1,3 +1,8 @@
-export default function animalReducer (state="Seattle ", action) {
-  return 0;
+export default function animalReducer (state="dog ", action) {
+  switch (action.type) {
+    case "CHANGE_ANIMAL":
+      return action.payload;
+    default:
+      return state;
+  }
 }

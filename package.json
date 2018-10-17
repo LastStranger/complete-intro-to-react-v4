@@ -35,8 +35,15 @@
   },
   "dependencies": {
     "@reach/router": "^1.1.1",
+    "animate.css": "^3.7.0",
+    "emotion": "^9.2.12",
     "petfinder-client": "^0.0.3",
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2"
+    "react": "^16.5.2",
+    "react-dom": "^16.4.2",
+    "react-emotion": "^9.2.12",
+    "react-loadable": "^5.5.0",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
   }
 }
