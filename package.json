@@ -35,10 +35,13 @@
   },
   "dependencies": {
     "@reach/router": "^1.1.1",
-    "emotion": "^9.2.6",
+    "emotion": "^9.2.12",
     "petfinder-client": "^0.0.3",
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2",
-    "react-emotion": "^9.2.6"
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-emotion": "^9.2.12",
+    "react-loader-spinner": "^2.2.0",
+    "react-loading": "^2.0.3",
+    "react-spinners": "^0.4.7"
   }
 }

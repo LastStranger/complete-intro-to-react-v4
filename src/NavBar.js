@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "@reach/router";
 import styled, { keyframes } from "react-emotion";
 import colors from "./colors";
+// import Loader from "react-loader-spinner";
+import Loading from "./Loading";
 
 const Container = styled("header")`
   background-color: ${colors.dark};
@@ -32,7 +34,8 @@ const SpyGlass = styled("span")`
 
 const NavBar = () => (
   <Container>
-    <NavLink to="/">Adopt Me!</NavLink>
+   <Loading/>
+      <NavLink to="/">Adopt Me!</NavLink>
     <NavLink to="/search-params">
       {/* eslint-disable-next-line */}
       <SpyGlass aria-label="search" role="img">
@@ -43,3 +46,4 @@ const NavBar = () => (
 );
 
 export default NavBar;
+/*git stash before*/
